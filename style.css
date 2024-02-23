@@ -119,6 +119,12 @@ h1 > span {
     letter-spacing: 1px;
 }
 
+/* .div-rosa {
+    color: var(--cor3);
+    background-color: ;
+    background-image: image();
+} */
+
 picture {
     display: flex;
     width: 50%;
@@ -128,4 +134,58 @@ img {
     width: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 670px) {
+
+      .card {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 350px;
+    }
+
+    picture {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .conteudo {
+        width: 100%;
+        align-items: center;
+        padding-left: 0px;
+        padding: 15px;
+        margin-bottom: 0px;
+        gap: 0px;
+    }
+
+    .titulo {
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+
+    .paragrafo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+    }
+
+    .paragrafo > p {
+        text-align: center;
+    }
+  
 }
