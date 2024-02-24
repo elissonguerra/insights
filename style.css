@@ -141,7 +141,7 @@ img {
       .card {
         flex-direction: column-reverse;
         justify-content: center;
-        width: 350px;
+        width: 300px;
     }
 
     picture {
@@ -171,21 +171,33 @@ img {
     h1 {
         text-align: center;
         padding-top: 15px;
+        font-size: 25px;
     }
 
 
     .paragrafo {
-        width: 100%;
-        height: auto;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding-left: 15px;
-        padding-right: 15px; */
+        padding: 0px;
+        padding-bottom: 20px;
     }
 
     .paragrafo > p {
         text-align: center;
     }
-  
+
+    .dados {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        padding: 0px;
+    }
+
+    .companies, .templates, .queries {
+        justify-content: center;
+    }
 }
